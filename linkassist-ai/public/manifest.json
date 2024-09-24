@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "LinkAssist AI",
+    "version": "1.0",
+    "description": "An AI-powered LinkedIn reply assistant.",
+    "permissions": [
+      "activeTab", "scripting"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://www.linkedin.com/*"],
+        "js": ["contentScript.js"],
+        "css": ["styles.css"]
+      }
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
