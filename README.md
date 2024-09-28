@@ -6,7 +6,7 @@ This is a Chrome extension designed to assist LinkedIn users by generating AI-po
 
 Below is a demonstration of the AI reply extension in action:
 
-![Demo GIF](./public/demo.gif)
+![Demo GIF](./demo.gif)
 
 ## Features
 
